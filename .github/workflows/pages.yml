@@ -22,7 +22,7 @@ jobs:
         with:
           repository: UHQ-Actual/Places
           ref: main
-          token: ${{ secrets.PLACES_SOURCE_TOKEN }}
+          ssh-key: ${{ secrets.PLACES_SOURCE_SSH_KEY }}
           path: source
           fetch-depth: 1
 
